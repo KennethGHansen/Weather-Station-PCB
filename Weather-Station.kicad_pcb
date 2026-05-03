@@ -6,7 +6,7 @@
 		(thickness 1.6)
 		(legacy_teardrops no)
 	)
-	(paper "A4")
+	(paper "A3")
 	(layers
 		(0 "F.Cu" signal)
 		(2 "B.Cu" signal)
@@ -55,7 +55,8 @@
 		)
 		(capping no)
 		(filling no)
-		(aux_axis_origin 101.5 113)
+		(aux_axis_origin 157.48 208.28)
+		(grid_origin 157.48 208.28)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
@@ -96,13 +97,13 @@
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_1x22_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "64d1e0f0-dbe5-46d1-8268-08fd2faeed05")
-		(at 241.809191 51.979282)
+		(at 314.785393 112.734669)
 		(descr "Through hole straight socket strip, 1x22, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 1x22 2.54mm single row")
 		(property "Reference" "J2"
 			(at 0 -2.77 0)
 			(layer "F.SilkS")
-			(uuid "d2620425-3a30-4981-a25e-4be2df7a7c6b")
+			(uuid "a8dc4f06-83b8-4f63-896d-2867ffb8248b")
 			(effects
 				(font
 					(size 1 1)
@@ -113,7 +114,7 @@
 		(property "Value" "Conn_01x22"
 			(at 0 56.11 0)
 			(layer "F.Fab")
-			(uuid "dc6efc6e-36dd-43fb-a1b0-51333384531a")
+			(uuid "cac32560-62bb-43bc-a22f-6321f3fe6d52")
 			(effects
 				(font
 					(size 1 1)
@@ -125,7 +126,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "812b4db5-0cc4-48be-bb51-80fb2dc51d37")
+			(uuid "6d49af73-4576-4de6-9177-5d338f07b230")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -136,7 +137,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "17afde67-19da-4d77-b112-647e6bfe5da3")
+			(uuid "d0b9c874-6634-47af-be01-1f895c1f27aa")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -589,13 +590,13 @@
 	(footprint "PCM_Espressif:ESP32-S3-DevKitC"
 		(layer "F.Cu")
 		(uuid "8b189e1f-6a79-4b4b-9758-15a165367bde")
-		(at 218.949191 51.979282)
+		(at 291.925393 112.734669)
 		(descr "ESP32-S3 general-purpose development board, based on ESP32-S3-WROOM-1 or ESP32-S3-WROOM-1U,It has all the ESP32-S3 pins exposed and is easy to connect and use.")
 		(tags "ESP32-S3")
 		(property "Reference" "U1"
 			(at 12.7 -2.1 0)
 			(layer "F.SilkS")
-			(uuid "9275ceec-d072-4476-8635-45aa2683231e")
+			(uuid "ac0e504b-868c-46b0-960e-240e9b23016f")
 			(effects
 				(font
 					(size 1 1)
@@ -606,7 +607,7 @@
 		(property "Value" "ESP32-S3-DevKitC"
 			(at 11.42632 29.46128 90)
 			(layer "F.SilkS")
-			(uuid "6079445d-c644-4207-bf3e-5f46e7ca96c7")
+			(uuid "41d5eaa2-f2ab-4b28-9b1e-58cdb4538605")
 			(effects
 				(font
 					(size 1 1)
@@ -618,7 +619,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "cb981ca9-6bf5-47ba-be8b-fd75321f36ee")
+			(uuid "8a03b951-bb77-4639-ae08-a8f8098f7612")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -629,14 +630,14 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "08849c28-6e79-4eb5-a19f-2b22e75d238c")
+			(uuid "8ce62963-0421-43cb-9e4d-c6fca5bbee4f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "LCSC" "C358688"
+		(property "LCSC" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -654,14 +655,14 @@
 		(units
 			(unit
 				(name "A")
-				(pins "3" "8" "9" "36" "37" "38" "39" "21" "24" "44" "23" "22" "2" "1"
-					"43" "42" "26" "25" "31" "41" "40" "13" "4" "5" "6" "7" "12" "15" "16"
-					"17" "18" "19" "20" "10" "11" "27" "32" "33" "34" "35" "30" "14" "28"
-					"29"
+				(pins "1" "2" "3" "4" "5" "6" "7" "8" "9" "10" "11" "12" "13" "14" "15"
+					"16" "17" "18" "19" "20" "21" "22" "23" "24" "25" "26" "27" "28" "29"
+					"30" "31" "32" "33" "34" "35" "36" "37" "38" "39" "40" "41" "42" "43"
+					"44"
 				)
 			)
 		)
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.5 62.79728)
@@ -1362,7 +1363,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(U1-3V3-Pad1)")
+			(net "unconnected-(U1-3V3-Pad1)")
 			(pinfunction "3V3_1")
 			(pintype "passive")
 			(uuid "5b23db84-2e6e-40a9-bef3-e95c76a1b18e")
@@ -1373,7 +1374,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(U1-3V3-Pad1)")
+			(net "unconnected-(U1-3V3-Pad2)")
 			(pinfunction "3V3_2")
 			(pintype "power_in")
 			(uuid "7409879a-9ff9-40dd-8667-baa9a20efb3e")
@@ -1384,8 +1385,8 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "unconnected-(U1-CHIP_PU-Pad3)")
-			(pinfunction "CHIP_PU_3")
+			(net "unconnected-(U1-RST-Pad3)")
+			(pinfunction "RST_3")
 			(pintype "input")
 			(uuid "cfeccefc-1610-45a5-ab98-b756f11e82a1")
 		)
@@ -1593,7 +1594,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(U1-GND-Pad22)")
+			(net "unconnected-(U1-GND-Pad22)")
 			(pinfunction "GND_22")
 			(pintype "passive")
 			(uuid "303ccf60-d30e-4582-8805-d7e7b96ee564")
@@ -1604,7 +1605,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(U1-GND-Pad22)")
+			(net "unconnected-(U1-GND-Pad23)")
 			(pinfunction "GND_23")
 			(pintype "passive")
 			(uuid "3b226f6d-81b3-47e4-aca3-34ab9f6ea5a9")
@@ -1615,8 +1616,8 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(U1-GND-Pad22)")
-			(pinfunction "GND_24")
+			(net "unconnected-(U1-U0TXD{slash}GPIO43-Pad24)")
+			(pinfunction "U0TXD/GPIO43_24")
 			(pintype "passive")
 			(uuid "568ada72-64d8-4d1e-b582-ce53a1905f79")
 		)
@@ -1626,8 +1627,8 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "unconnected-(U1-GPIO19{slash}USB_D--Pad25)")
-			(pinfunction "GPIO19/USB_D-_25")
+			(net "unconnected-(U1-U0RXD{slash}GPIO44-Pad25)")
+			(pinfunction "U0RXD/GPIO44_25")
 			(pintype "bidirectional")
 			(uuid "66257f4b-fe2b-4c70-94c1-35558f7518e1")
 		)
@@ -1637,8 +1638,8 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "unconnected-(U1-GPIO20{slash}USB_D+-Pad26)")
-			(pinfunction "GPIO20/USB_D+_26")
+			(net "unconnected-(U1-GPIO1-Pad26)")
+			(pinfunction "GPIO1_26")
 			(pintype "bidirectional")
 			(uuid "ababeb3f-71da-47cb-93c1-1f62aef30d28")
 		)
@@ -1648,8 +1649,8 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "unconnected-(U1-GPIO21-Pad27)")
-			(pinfunction "GPIO21_27")
+			(net "unconnected-(U1-GPIO42{slash}MTMS-Pad27)")
+			(pinfunction "GPIO42/MTMS_27")
 			(pintype "bidirectional")
 			(uuid "da4dd326-a984-4e77-8ea6-1224d105c4ee")
 		)
@@ -1659,8 +1660,8 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "unconnected-(U1-GPIO47-Pad28)")
-			(pinfunction "GPIO47_28")
+			(net "unconnected-(U1-GPIO41{slash}MTDI-Pad28)")
+			(pinfunction "GPIO41/MTDI_28")
 			(pintype "bidirectional")
 			(uuid "2626ec1a-d206-4f35-a26b-b6e9921b70de")
 		)
@@ -1670,8 +1671,8 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "unconnected-(U1-GPIO48-Pad29)")
-			(pinfunction "GPIO48_29")
+			(net "unconnected-(U1-GPIO40{slash}MTDO-Pad29)")
+			(pinfunction "GPIO40/MTDO_29")
 			(pintype "bidirectional")
 			(uuid "8de3d781-bb27-419b-b70a-ca4e34a411d5")
 		)
@@ -1681,8 +1682,8 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "unconnected-(U1-GPIO45-Pad30)")
-			(pinfunction "GPIO45_30")
+			(net "unconnected-(U1-GPIO39{slash}MTCK-Pad30)")
+			(pinfunction "GPIO39/MTCK_30")
 			(pintype "bidirectional")
 			(uuid "489753e5-9562-40ae-a973-1850fcab4383")
 		)
@@ -1692,8 +1693,8 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "unconnected-(U1-GPIO0-Pad31)")
-			(pinfunction "GPIO0_31")
+			(net "unconnected-(U1-GPIO38-Pad31)")
+			(pinfunction "GPIO38_31")
 			(pintype "bidirectional")
 			(uuid "dc3cadde-e64e-43ff-ac80-8ed359e6cb02")
 		)
@@ -1703,8 +1704,8 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "unconnected-(U1-GPIO35-Pad32)")
-			(pinfunction "GPIO35_32")
+			(net "unconnected-(U1-GPIO37-Pad32)")
+			(pinfunction "GPIO37_32")
 			(pintype "bidirectional")
 			(uuid "dab6dd7f-a385-4426-ad4c-fdc7eee8e83a")
 		)
@@ -1725,8 +1726,8 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "unconnected-(U1-GPIO37-Pad34)")
-			(pinfunction "GPIO37_34")
+			(net "unconnected-(U1-GPIO35-Pad34)")
+			(pinfunction "GPIO35_34")
 			(pintype "bidirectional")
 			(uuid "031a2033-2eca-4fa2-b8c7-985bb88e5f59")
 		)
@@ -1747,8 +1748,8 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "unconnected-(U1-GPIO39{slash}MTCK-Pad36)")
-			(pinfunction "GPIO39/MTCK_36")
+			(net "unconnected-(U1-GPIO0-Pad36)")
+			(pinfunction "GPIO0_36")
 			(pintype "bidirectional")
 			(uuid "c298ec8c-2358-47e0-b40b-e532588b50a2")
 		)
@@ -1758,8 +1759,8 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "unconnected-(U1-GPIO40{slash}MTDO-Pad37)")
-			(pinfunction "GPIO40/MTDO_37")
+			(net "unconnected-(U1-GPIO45-Pad37)")
+			(pinfunction "GPIO45_37")
 			(pintype "bidirectional")
 			(uuid "351ec83c-d4e4-4d67-8ad4-d5816380af43")
 		)
@@ -1769,8 +1770,8 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "unconnected-(U1-GPIO41{slash}MTDI-Pad38)")
-			(pinfunction "GPIO41/MTDI_38")
+			(net "unconnected-(U1-GPIO48-Pad38)")
+			(pinfunction "GPIO48_38")
 			(pintype "bidirectional")
 			(uuid "e356f4fa-b12c-4b89-94e5-26a5f7173181")
 		)
@@ -1780,8 +1781,8 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "unconnected-(U1-GPIO42{slash}MTMS-Pad39)")
-			(pinfunction "GPIO42/MTMS_39")
+			(net "unconnected-(U1-GPIO47-Pad39)")
+			(pinfunction "GPIO47_39")
 			(pintype "bidirectional")
 			(uuid "3783d1ca-090c-49e3-be3a-0d91bf36abe7")
 		)
@@ -1791,8 +1792,8 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "unconnected-(U1-GPIO2{slash}ADC1_CH1-Pad40)")
-			(pinfunction "GPIO2/ADC1_CH1_40")
+			(net "unconnected-(U1-GPIO21-Pad40)")
+			(pinfunction "GPIO21_40")
 			(pintype "bidirectional")
 			(uuid "6eeafb2b-a3d7-4f41-ae2e-22f298599844")
 		)
@@ -1802,8 +1803,8 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "unconnected-(U1-GPIO1{slash}ADC1_CH0-Pad41)")
-			(pinfunction "GPIO1/ADC1_CH0_41")
+			(net "unconnected-(U1-GPIO20-Pad41)")
+			(pinfunction "GPIO20_41")
 			(pintype "bidirectional")
 			(uuid "0df369b0-4568-4df7-a563-74c0a77a3443")
 		)
@@ -1813,8 +1814,8 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "unconnected-(U1-GPIO44{slash}U0RXD-Pad42)")
-			(pinfunction "GPIO44/U0RXD_42")
+			(net "unconnected-(U1-GPIO19-Pad42)")
+			(pinfunction "GPIO19_42")
 			(pintype "bidirectional")
 			(uuid "467f109e-e9a0-4560-9ac2-75bf519ca44a")
 		)
@@ -1824,8 +1825,8 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "unconnected-(U1-GPIO43{slash}U0TXD-Pad43)")
-			(pinfunction "GPIO43/U0TXD_43")
+			(net "unconnected-(U1-GND-Pad43)")
+			(pinfunction "GND_43")
 			(pintype "bidirectional")
 			(uuid "d950ccc4-1f02-4a4c-9720-fc0a12921125")
 		)
@@ -1835,7 +1836,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(U1-GND-Pad22)")
+			(net "unconnected-(U1-GND-Pad44)")
 			(pinfunction "GND_44")
 			(pintype "power_in")
 			(uuid "69c44c58-8f88-4b90-b4aa-2309ee8eaa2b")
@@ -1845,7 +1846,7 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_2x19_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "99f18d6c-96b9-4865-8144-0701e6d59220")
-		(at 83.11 60.27)
+		(at 185.35 119.42)
 		(descr "Through hole straight pin header, 2x19, 2.54mm pitch, double rows")
 		(tags "Through hole pin header THT 2x19 2.54mm double row")
 		(property "Reference" "J3"
@@ -1889,6 +1890,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C7430415"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3cc67fd1-f540-4612-bfbe-2f2fb9f2949f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2493,7 +2507,7 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_2x19_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "a2105016-0032-453a-a570-a4f723f5c38e")
-		(at 144.07 60.27)
+		(at 246.31 119.42)
 		(descr "Through hole straight pin header, 2x19, 2.54mm pitch, double rows")
 		(tags "Through hole pin header THT 2x19 2.54mm double row")
 		(property "Reference" "J4"
@@ -2537,6 +2551,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C7430415"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c71cac66-cffb-4500-80ee-06b4c711b769")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3141,13 +3168,13 @@
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_1x22_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "e7d5fd1c-4c2a-4372-8dac-398ca3fe2d79")
-		(at 218.949191 51.979282)
+		(at 291.925393 112.734669)
 		(descr "Through hole straight socket strip, 1x22, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 1x22 2.54mm single row")
 		(property "Reference" "J1"
 			(at 0 -2.77 0)
 			(layer "F.SilkS")
-			(uuid "45c589b1-c6c8-457c-8c14-50edd052d17b")
+			(uuid "2249f879-dc0d-4bad-b600-bff61be88866")
 			(effects
 				(font
 					(size 1 1)
@@ -3158,7 +3185,7 @@
 		(property "Value" "Conn_01x22"
 			(at 0 56.11 0)
 			(layer "F.Fab")
-			(uuid "884c65dd-2ba8-4894-835e-d7181ffa6a76")
+			(uuid "2f26156b-04eb-4fc0-a4d1-b5030870ddb6")
 			(effects
 				(font
 					(size 1 1)
@@ -3170,7 +3197,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f6f8e2c0-85ef-4363-b415-348e2e25aee2")
+			(uuid "069bf118-18b3-49d1-8f4a-5a1a75139840")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3181,7 +3208,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "cdc0bb08-00f5-4fb9-a382-4c938ff68d0b")
+			(uuid "d97ad2c0-e9c3-41a0-8d6a-01ba095cbd17")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3632,19 +3659,19 @@
 		)
 	)
 	(gr_rect
-		(start 68.58 43.18)
-		(end 246.38 149.86)
+		(start 157.48 101.6)
+		(end 335.28 208.28)
 		(stroke
 			(width 0.05)
-			(type default)
+			(type solid)
 		)
 		(fill no)
 		(layer "Edge.Cuts")
 		(uuid "dd37d97c-8fb5-4343-be0d-f76a5498b910")
 	)
 	(gr_line
-		(start 79.86 55.03)
-		(end 79.86 107.53)
+		(start 182.1 114.18)
+		(end 182.1 166.68)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -3653,9 +3680,9 @@
 		(uuid "da13b213-252b-494b-a886-e1659a2c0c88")
 	)
 	(gr_arc
-		(start 79.86 55.03)
-		(mid 80.29934 53.96934)
-		(end 81.36 53.53)
+		(start 182.1 114.18)
+		(mid 182.53934 113.11934)
+		(end 183.6 112.68)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -3664,8 +3691,8 @@
 		(uuid "812bbead-95f2-43cc-ab0c-a1e8ead4ff17")
 	)
 	(gr_line
-		(start 81.36 53.53)
-		(end 100.36 53.53)
+		(start 183.6 112.68)
+		(end 202.6 112.68)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -3674,9 +3701,9 @@
 		(uuid "b1d897b5-df44-47e2-a6e9-853c7a5f4084")
 	)
 	(gr_arc
-		(start 81.36 109.03)
-		(mid 80.29934 108.59066)
-		(end 79.86 107.53)
+		(start 183.6 168.18)
+		(mid 182.53934 167.74066)
+		(end 182.1 166.68)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -3685,8 +3712,8 @@
 		(uuid "ff024a6c-ecc5-4dd2-9988-37bde6fcb8eb")
 	)
 	(gr_line
-		(start 81.36 109.03)
-		(end 91.36 109.03)
+		(start 183.6 168.18)
+		(end 193.6 168.18)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -3695,8 +3722,8 @@
 		(uuid "9d825ab1-23ce-479e-9b16-f3cc8af5f5ce")
 	)
 	(gr_line
-		(start 91.36 109.03)
-		(end 93.36 111.03)
+		(start 193.6 168.18)
+		(end 195.6 170.18)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -3705,8 +3732,8 @@
 		(uuid "5d215e3a-f8b9-4662-a089-04e7d13f6f7b")
 	)
 	(gr_line
-		(start 93.36 111.03)
-		(end 126.36 111.03)
+		(start 195.6 170.18)
+		(end 228.6 170.18)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -3715,9 +3742,9 @@
 		(uuid "7db0374c-0758-4dab-83e2-85e5837246a7")
 	)
 	(gr_arc
-		(start 100.36 53.53)
-		(mid 101.067107 53.822893)
-		(end 101.36 54.53)
+		(start 202.6 112.68)
+		(mid 203.307107 112.972893)
+		(end 203.6 113.68)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -3726,8 +3753,8 @@
 		(uuid "cc51b1d0-e721-493a-afe1-495a1db7bd02")
 	)
 	(gr_line
-		(start 101.36 54.53)
-		(end 101.36 60.03)
+		(start 203.6 113.68)
+		(end 203.6 119.18)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -3736,9 +3763,9 @@
 		(uuid "d98b609c-4fbe-4e01-a16d-40435950b92d")
 	)
 	(gr_arc
-		(start 102.36 61.03)
-		(mid 101.652893 60.737107)
-		(end 101.36 60.03)
+		(start 204.6 120.18)
+		(mid 203.892893 119.887107)
+		(end 203.6 119.18)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -3747,8 +3774,8 @@
 		(uuid "3fa21999-bb91-41c2-908c-a3e4411e43b3")
 	)
 	(gr_line
-		(start 102.36 61.03)
-		(end 127.36 61.03)
+		(start 204.6 120.18)
+		(end 229.6 120.18)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -3757,8 +3784,8 @@
 		(uuid "ff05bb77-1937-41ea-982c-59715ac353a2")
 	)
 	(gr_line
-		(start 126.36 111.03)
-		(end 128.36 109.03)
+		(start 228.6 170.18)
+		(end 230.6 168.18)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -3767,9 +3794,9 @@
 		(uuid "ad4dc8a6-6df8-43bd-badc-25ecc4bce398")
 	)
 	(gr_arc
-		(start 128.36 54.53)
-		(mid 128.652893 53.822893)
-		(end 129.36 53.53)
+		(start 230.6 113.68)
+		(mid 230.892893 112.972893)
+		(end 231.6 112.68)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -3778,9 +3805,9 @@
 		(uuid "e195a118-4b98-4f79-bea4-6a3a5a2da43f")
 	)
 	(gr_arc
-		(start 128.36 60.03)
-		(mid 128.067107 60.737107)
-		(end 127.36 61.03)
+		(start 230.6 119.18)
+		(mid 230.307107 119.887107)
+		(end 229.6 120.18)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -3789,8 +3816,8 @@
 		(uuid "7480366d-71bf-4a36-a8e1-9eb0f153bdcf")
 	)
 	(gr_line
-		(start 128.36 60.03)
-		(end 128.36 54.53)
+		(start 230.6 119.18)
+		(end 230.6 113.68)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -3799,8 +3826,8 @@
 		(uuid "11d2fee8-9076-424a-9380-5d3e82434437")
 	)
 	(gr_line
-		(start 128.36 109.03)
-		(end 148.36 109.03)
+		(start 230.6 168.18)
+		(end 250.6 168.18)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -3809,8 +3836,8 @@
 		(uuid "8ea366f1-5a0a-4a76-a92d-237e8bc4b17c")
 	)
 	(gr_line
-		(start 129.36 53.53)
-		(end 148.36 53.53)
+		(start 231.6 112.68)
+		(end 250.6 112.68)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -3819,9 +3846,9 @@
 		(uuid "63bd42f8-10be-42be-bebd-9f3a9d4bd478")
 	)
 	(gr_arc
-		(start 148.36 53.53)
-		(mid 149.42066 53.96934)
-		(end 149.86 55.03)
+		(start 250.6 112.68)
+		(mid 251.66066 113.11934)
+		(end 252.1 114.18)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -3830,8 +3857,8 @@
 		(uuid "b63cc310-437b-4c65-aa21-057cb723f087")
 	)
 	(gr_line
-		(start 149.86 55.03)
-		(end 149.86 107.53)
+		(start 252.1 114.18)
+		(end 252.1 166.68)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -3840,9 +3867,9 @@
 		(uuid "ac94ee7e-5132-4992-9296-fac991c58ccf")
 	)
 	(gr_arc
-		(start 149.86 107.53)
-		(mid 149.42066 108.59066)
-		(end 148.36 109.03)
+		(start 252.1 166.68)
+		(mid 251.66066 167.74066)
+		(end 250.6 168.18)
 		(stroke
 			(width 0.1)
 			(type solid)
