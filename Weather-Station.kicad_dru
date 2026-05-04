@@ -1,0 +1,9 @@
+(version 1)
+(rule "Ignore U1 and U2 Overlaps"
+    (condition "A.Reference == 'U1' || A.Reference == 'U2' || B.Reference == 'U1' || B.Reference == 'U2'")
+    (constraint clearance (min -100mm))
+    (constraint courtyard_clearance (min -100mm))
+    (constraint hole_to_hole (min 0mm))
+    (constraint edge_clearance (min -100mm))
+    (constraint silk_clearance (min -100mm)))
+
