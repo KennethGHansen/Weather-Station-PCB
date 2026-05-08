@@ -66,10 +66,10 @@
       },
       "rule_severities": {
         "annular_width": "error",
-        "clearance": "ignore",
-        "connection_width": "error",
+        "clearance": "error",
+        "connection_width": "warning",
         "copper_edge_clearance": "error",
-        "copper_sliver": "error",
+        "copper_sliver": "warning",
         "courtyards_overlap": "error",
         "creepage": "error",
         "diff_pair_gap_out_of_range": "error",
@@ -83,8 +83,8 @@
         "footprint_symbol_mismatch": "warning",
         "footprint_type_mismatch": "ignore",
         "hole_clearance": "error",
-        "hole_to_hole": "error",
-        "holes_co_located": "ignore",
+        "hole_to_hole": "warning",
+        "holes_co_located": "warning",
         "invalid_outline": "error",
         "isolated_copper": "warning",
         "item_on_disabled_layer": "error",
@@ -100,15 +100,15 @@
         "missing_tuning_profile": "warning",
         "net_conflict": "warning",
         "nonmirrored_text_on_back_layer": "warning",
-        "npth_inside_courtyard": "ignore",
+        "npth_inside_courtyard": "error",
         "padstack": "warning",
-        "pth_inside_courtyard": "ignore",
-        "shorting_items": "ignore",
+        "pth_inside_courtyard": "error",
+        "shorting_items": "error",
         "silk_edge_clearance": "warning",
         "silk_over_copper": "warning",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
-        "solder_mask_bridge": "ignore",
+        "solder_mask_bridge": "error",
         "starved_thermal": "error",
         "text_height": "warning",
         "text_on_edge_cuts": "error",
@@ -116,7 +116,7 @@
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
         "track_angle": "error",
-        "track_dangling": "error",
+        "track_dangling": "warning",
         "track_not_centered_on_via": "ignore",
         "track_on_post_machined_layer": "error",
         "track_segment_length": "error",
@@ -125,7 +125,7 @@
         "tuning_profile_track_geometries": "ignore",
         "unconnected_items": "error",
         "unresolved_variable": "error",
-        "via_dangling": "error",
+        "via_dangling": "warning",
         "zones_intersect": "error"
       },
       "rules": {
@@ -231,14 +231,6 @@
         {
           "diameter": 0.0,
           "drill": 0.0
-        },
-        {
-          "diameter": 1.0,
-          "drill": 0.5
-        },
-        {
-          "diameter": 2.0,
-          "drill": 1.0
         }
       ],
       "zones_allow_external_fillets": false
@@ -658,7 +650,7 @@
         "uuid": "bb543e21-1dfd-445b-a92c-06be9426f30a"
       }
     ],
-    "used_designators": "#PWR10-17",
+    "used_designators": "U2-3,J5-7",
     "variants": []
   },
   "sheets": [

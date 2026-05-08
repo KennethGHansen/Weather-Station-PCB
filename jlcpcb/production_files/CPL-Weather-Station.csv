@@ -1,0 +1,8 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+J1,Conn_01x22,PinSocket_1x22_P2.54mm_Vertical,120.65,102.87,0.0,top
+J2,Conn_01x22,PinSocket_1x22_P2.54mm_Vertical,143.51,102.87,0.0,top
+J3,CN2,PinHeader_2x19_P2.54mm_Vertical,12.7,71.12,0.0,top
+J4,CN3,PinHeader_2x19_P2.54mm_Vertical,73.66,71.12,0.0,top
+J5,Conn_02x22_Odd_Even,PinHeader_2x22_P2.54mm_Vertical,107.95,102.84792,0.0,top
+J6,Conn_01x22,PinHeader_1x22_P2.54mm_Vertical,154.94,102.84792,0.0,top
+J7,Conn_01x06,PinSocket_1x06_P2.54mm_Vertical,89.8,134.6,90.0,top
